@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <com.zydemo.AndroidAnimationDemo.DropAnimation
+        android:background="@color/colorPrimary"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="下载失败"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fail"
+        android:layout_alignBottom="@+id/success"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:text="下载成功"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/success"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/fail" />
+
+</RelativeLayout>
