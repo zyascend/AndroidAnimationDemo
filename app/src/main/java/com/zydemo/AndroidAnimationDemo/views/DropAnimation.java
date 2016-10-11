@@ -1,4 +1,4 @@
-package com.zydemo.AndroidAnimationDemo;
+package com.zydemo.AndroidAnimationDemo.views;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;

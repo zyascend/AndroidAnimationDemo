@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
-    <com.zydemo.AndroidAnimationDemo.DropAnimation
+    <com.zydemo.AndroidAnimationDemo.views.DropAnimation
         android:background="@color/colorPrimary"
         android:id="@+id/view"
         android:layout_width="match_parent"

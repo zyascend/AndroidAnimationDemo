@@ -1,9 +1,11 @@
-package com.zydemo.AndroidAnimationDemo;
+package com.zydemo.AndroidAnimationDemo.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DropAnimationActivity extends AppCompatActivity {
+import com.zydemo.AndroidAnimationDemo.R;
+
+public class DropActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
