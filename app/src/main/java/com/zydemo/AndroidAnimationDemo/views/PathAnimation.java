@@ -105,8 +105,9 @@ public class PathAnimation implements ValueAnimator.AnimatorUpdateListener {
     }
 
     public void stop(){
-        valueAnimator.cancel();
         valueAnimator.end();
+        valueAnimator.cancel();
+
     }
 
 
