@@ -22,9 +22,18 @@
 
 博客地址：https://zyascend.github.io/2016/10/11/Android%E5%8A%A8%E6%95%88%E4%B9%8B%E6%96%B9%E5%9D%97%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BB/#more
 
+### ConvergeLoader
+原图 | 效果图 
+-----|------|----
+![此处输入图片的描述][5]    | ![此处输入图片的描述][6]
+原图：https://dribbble.com/shots/2215917-Loader-v4  
+
+好像没什么技术含量，就不写博客了。。。
 
 
   [1]: https://d13yacurqjgara.cloudfront.net/users/2726/screenshots/1976596/download3_dribbble.gif
   [2]: http://ww2.sinaimg.cn/mw690/85a30f1djw1f862ydz6h0g20ac0hs45a.gif
   [3]: https://d13yacurqjgara.cloudfront.net/users/563824/screenshots/2912856/fluid-5.gif
   [4]: http://i1.piimg.com/4851/c07946dfac079057.gif
+  [5]: https://d13yacurqjgara.cloudfront.net/users/255512/screenshots/2215917/animation.gif
+  [6]: http://yotuku.cn/link?url=VyEPlkngG&tk_plan=free&tk_storage=qiniu,weibo,tietuku&tk_vuid=1a3f4739-6431-4107-952a-1085e3012227&tk_time=2016110917
