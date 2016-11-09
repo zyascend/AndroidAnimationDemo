@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.zydemo.AndroidAnimationDemo.views.ConvergeLoader
+        android:id="@+id/loader"
+        app:circleCount="8"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp" />
+
+    <Button
+        android:id="@+id/go"
+        android:text="GO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/loader"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="31dp" />
+
+    <Button
+        android:text="STOP "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/go"
+        android:layout_toEndOf="@+id/loader"
+        android:id="@+id/stop" />
+</RelativeLayout>
